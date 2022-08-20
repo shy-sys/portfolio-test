@@ -1,0 +1,36 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+#camera {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+footer {
+    text-align: center;
+}
+
+.header h2 {
+    font-size: 20px;
+}
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+    #mainvisual img {
+        height:calc(100% - 60px);
+}
+
+#about .content{
+    flex-direction:column;
+}
+#about img {
+    margin-right: 0;
+}
+#camera ul {
+    flex-direction: column;
+}
+#camera li {
+    width: 100%;
+    margin-bottom: 30px;
+}
+}

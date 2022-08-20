@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.9rem;
+    color: #383e45;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.section-title {
+    display: inline-block;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #2f4f4f;
+}
+
+.content-title {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto 100px auto;
+    padding: 0,4%;
+    text-align: center;
+}
+
+/* ヘッダー */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(230, 230, 250);
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header-right {
+    float: right;
+    margin-right: 25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0;
+}
+
+.header-right a:hover {
+    opacity: 0.6;
+}
+
+/* mainvisual */
+#mainvisual {
+    margin-bottom: 80px;
+}
+
+#mainvisual img{
+    width: 100%;
+    max-width: 1170px;
+    height: 600px;
+    object-fit: cover;
+}
+
+/* about */
+#about .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+#about .text {
+    text-align: left;
+}
+
+/* camera */
+#camera ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#camera li {
+    width: 32%;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.btn {
+    padding: 8px 25px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+a.btn-contact {
+    border: 2px solid #000;
+    border-radius: 0;
+    background: #fff;
+    -webkit-box-shadow: 4px 4px 0 #000;
+    box-shadow: 4px 4px 0 #000;
+}
+
+a.btn-contact:hover {
+    -webkit-box-shadow: -4px -4px 0 #000;
+    box-shadow: -4px -4px 0 #000;
+    
+}
+
+/* footer */
+#footer {
+    font-size: 0.5rem;
+    padding: 10px 0;
+    text-align: center;
+}
